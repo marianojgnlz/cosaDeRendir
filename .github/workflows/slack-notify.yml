@@ -14,5 +14,5 @@ jobs:
         SLACK_ICON: https://github.com/marianoGnlz/cosaDeRendir/blob/master/hot_face.png
         SLACK_MESSAGE: 'Se subieron cosas :hot_face:'
         SLACK_TITLE: Post Title
-        SLACK_USERNAME: avisador :hot_face:
+        SLACK_USERNAME: avisador
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
