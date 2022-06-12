@@ -11,8 +11,8 @@ jobs:
       env:
         SLACK_CHANNEL: general
         SLACK_COLOR: ${{ job.status }} # or a specific color like 'good' or '#ff00ff'
-        SLACK_ICON: https://github.com/rtCamp.png?size=48
-        SLACK_MESSAGE: 'Post Content :rocket:'
+        SLACK_ICON: https://github.com/marianoGnlz/cosaDeRendir/blob/master/hot_face.png
+        SLACK_MESSAGE: 'Se subieron cosas :hot_face:'
         SLACK_TITLE: Post Title
-        SLACK_USERNAME: rtCamp
+        SLACK_USERNAME: avisador
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
