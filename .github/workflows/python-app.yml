@@ -40,6 +40,7 @@ jobs:
       uses: hynek/build-and-inspect-python-package@v1.5
     - name: Test with pytest
       run: |
+        pip install --upgrade pip
         export PYTHONPATH=src
         pytest
     - name: Deploy yo Heroku
